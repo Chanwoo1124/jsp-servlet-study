@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Eclipse
+.metadata/
+.settings/
+Servers/
+
+# Build outputs
+bin/
+build/
+out/
+*.log
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
