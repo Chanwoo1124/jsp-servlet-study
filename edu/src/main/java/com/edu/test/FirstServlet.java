@@ -1,0 +1,23 @@
+package com.edu.test;
+
+import java.io.IOException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.*;
+
+
+public class FirstServlet extends HttpServlet {
+	
+	public void init(ServletConfig conFig) throws ServletException{
+		System.out.println("init() 실행됨!");
+	}
+
+
+	public void service(ServletRequest arg0, ServletResponse args1) throws ServletException, IOException{
+		System.out.println("service() 실행됨!");
+		
+	}
+}
