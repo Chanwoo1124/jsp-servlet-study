@@ -6,9 +6,11 @@ import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 
+@WebServlet("/hello2")
 public class FirstServlet extends HttpServlet {
 	
 	public void init(ServletConfig conFig) throws ServletException{
