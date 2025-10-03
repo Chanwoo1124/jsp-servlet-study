@@ -10,7 +10,7 @@ import javax.servlet.ServletResponse;
 public class FlowFilterOne implements Filter {
 	public void init(FilterConfig config) {
 		System.out.println("init() 호출....one");
-		config.
+		
 	}
 
 	
